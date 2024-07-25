@@ -29,6 +29,9 @@ pip install flask
 # export package versions
 pip freeze > requirements.txt
 pipenv requirements > requirements-pipenv.txt
+
+# exit virtualenv
+deactivate
 ```
 
 ## Development with flask
